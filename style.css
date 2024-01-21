@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 219, 219);
+}
+.c{
+    font-size: 13px;
+}
+.Innerbox{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 4px;
+    padding: 20px 40px;
+    background: linear-gradient(to right, #22eafd, #49a4f4);  
+    box-shadow:0 2px 4px ;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    z-index: 6;
+    position: relative;
+    
+}
+.Innerbox:hover{
+    background: linear-gradient(to right, #4ba2ed, #22eafd); /* Invert the gradient on hover */
+}
+.signup h1{
+    font-size: 2.5rem;;
+}
+ .signup p{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.signupbody p{
+    margin: 10px 0;
+    
+}
+.signupbody label{
+    display: block;
+    font-weight: bold;
+}
+.signupbody input{
+    width: 100%;
+    padding: 6px;
+    border: 4px #ccc;
+    border-radius: 4px;
+}
+
+#submit{
+    background-color:rgb(70, 70, 240) ;
+    color: white;
+    cursor: pointer ;
+}   
+#submit:hover{
+    background-color:#1212f2 ;
+}
+.footer a{
+    color:#1212f2 ;
+}
+.footer p{
+    text-align: center;
+}
+
+.circlec1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Set border-radius to 50% for a circle */
+    background: linear-gradient(to right, #22eafd, #4ba2ed); /* Gradient from blue to red */
+    position: absolute;
+    top: 100px;
+    left: 16%;
+}
+.circlec1:hover {
+    background: linear-gradient(to right, #4ba2ed, #22eafd); /* Invert the gradient on hover */
+}
+.circlec2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Set border-radius to 50% for a circle */
+    background: linear-gradient(to right, #22eafd, #49a4f4); /* Gradient from blue to red */
+    position: absolute;
+    bottom: 150px;
+    right: 16%;
+    z-index: 5;
+}
+.circlec2:hover {
+    background: linear-gradient(to right, #4ba2ed, #22eafd); /* Invert the gradient on hover */
+}
